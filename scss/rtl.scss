@@ -117,3 +117,14 @@ body.rtl-body {
 .dir-ltr{
     direction: ltr;
 }
+
+.services .item .icon{
+         left: -6px;
+    right: unset;
+    transform: rotate(90deg);
+}
+
+.services .item .icon .arrow {
+   
+    transform: rotate(180deg);
+}
