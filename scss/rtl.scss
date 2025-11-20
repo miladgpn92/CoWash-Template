@@ -6,7 +6,10 @@ body.rtl-body {
 }
 
 .rtl-body .navbar-nav .dropdown-menu,
-.rtl-body .navbar-nav .nav-link,
+.rtl-body .navbar-nav .nav-link{
+    text-align: right;
+    width: 100%;
+}
 .rtl-body .section-title {
     text-align: center;
 }
