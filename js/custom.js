@@ -31,6 +31,7 @@
 $(function () {
     "use strict";
     var wind = $(window);
+    var isRTL = $("html").attr("dir") === "rtl" || $("body").hasClass("rtl-body");
     // ScrollIt
     $.scrollIt({
         upKey: 38, // key code to navigate to the next section
@@ -110,6 +111,7 @@ $(function () {
             autoplayTimeout: 5000,
             nav: true,
             navText: ['<i class="ti-angle-left" aria-hidden="true"></i>', '<i class="ti-angle-right" aria-hidden="true"></i>'],
+            rtl: isRTL,
             responsiveClass: true,
             responsive: {
                 0: {
@@ -132,7 +134,8 @@ $(function () {
             autoplayTimeout: 5000,
             animateOut: 'fadeOut',
             nav: true,
-            navText: ['<i class="ti-angle-left" aria-hidden="true"></i>', '<i class="ti-angle-right" aria-hidden="true"></i>']
+            navText: ['<i class="ti-angle-left" aria-hidden="true"></i>', '<i class="ti-angle-right" aria-hidden="true"></i>'],
+            rtl: isRTL
         });
         owl.on('changed.owl.carousel', function (event) {
             var item = event.item.index - 2; // Position of the current item
@@ -166,6 +169,7 @@ $(function () {
         dots: false,
         nav: false,
         navText: ["<span class='lnr ti-angle-left'></span>", "<span class='lnr ti-angle-right'></span>"],
+        rtl: isRTL,
         autoplayHoverPause: true,
         responsiveClass: true,
         responsive: {
@@ -191,6 +195,7 @@ $(function () {
         autoplayHoverPause: true,
         nav: false,
         navText: ["<span class='lnr ti-angle-left'></span>", "<span class='lnr ti-angle-right'></span>"],
+        rtl: isRTL,
         responsiveClass: true,
         responsive: {
             0: {
@@ -214,6 +219,7 @@ $(function () {
         dots: false,
         nav: true,
         navText: ['<i class="ti-angle-left" aria-hidden="true"></i>', '<i class="ti-angle-right" aria-hidden="true"></i>'],
+        rtl: isRTL,
         responsiveClass: true,
         responsive: {
             0: {
@@ -241,6 +247,7 @@ $(function () {
         autoplayHoverPause: true,
         nav: false,
         navText: ["<span class='lnr ti-angle-left'></span>", "<span class='lnr ti-angle-right'></span>"],
+        rtl: isRTL,
         responsiveClass: true,
         responsive: {
             0: {
@@ -265,6 +272,7 @@ $(function () {
         autoplayHoverPause: true,
         nav: false,
         navText: ["<span class='lnr ti-angle-left'></span>", "<span class='lnr ti-angle-right'></span>"],
+        rtl: isRTL,
         responsiveClass: true,
         responsive: {
             0: {
@@ -289,6 +297,7 @@ $(function () {
         dots: true,
         nav: false,
         navText: ["<span class='lnr ti-angle-left'></span>", "<span class='lnr ti-angle-right'></span>"],
+        rtl: isRTL,
         responsiveClass: true,
         responsive: {
             0: {
@@ -313,6 +322,7 @@ $(function () {
         autoplayHoverPause: true,
         nav: false,
         navText: ["<span class='lnr ti-angle-left'></span>", "<span class='lnr ti-angle-right'></span>"],
+        rtl: isRTL,
         responsiveClass: true,
         responsive: {
             0: {

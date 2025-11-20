@@ -1,0 +1,27 @@
+{
+  "name": "cowash-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "build:prod": "cross-env NODE_ENV=production webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "compression-webpack-plugin": "^11.1.0",
+    "copy-webpack-plugin": "^13.0.1",
+    "cross-env": "^10.1.0",
+    "css-loader": "^7.1.2",
+    "imports-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^2.9.4",
+    "sass": "^1.94.1",
+    "sass-loader": "^16.0.6",
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-remove-empty-scripts": "^1.1.1"
+  }
+}

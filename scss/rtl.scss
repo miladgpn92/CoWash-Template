@@ -1,0 +1,24 @@
+/* Basic RTL overrides for Persian pages */
+body.rtl-body {
+    direction: rtl;
+    text-align: right;
+    font-family: "Pinar", "Tahoma", "Arial", sans-serif;
+}
+
+.rtl-body .navbar-nav .dropdown-menu,
+.rtl-body .navbar-nav .nav-link,
+.rtl-body .section-title {
+    text-align: right;
+}
+
+.rtl-body .breadcrumb,
+.rtl-body .carousel-caption,
+.rtl-body .hero-content {
+    direction: rtl;
+    text-align: right;
+}
+
+.rtl-body .navbar .navbar-toggler {
+    left: 0;
+    right: auto;
+}

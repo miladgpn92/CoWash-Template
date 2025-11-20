@@ -1,0 +1,14 @@
+import "./jquery-3.7.1.min.js";
+import "./jquery-migrate-3.4.1.min.js";
+import "imports-loader?wrapper=window!./modernizr-2.6.2.min.js";
+import "./imagesloaded.pkgd.min.js";
+import "./jquery.isotope.v3.0.2.js";
+import "./popper.min.js";
+import "./bootstrap.min.js";
+import "./scrollIt.min.js";
+import "./jquery.waypoints.min.js";
+import "./owl.carousel.min.js";
+import "./jquery.stellar.min.js";
+import "./jquery.magnific-popup.js";
+import "./YouTubePopUp.js";
+import "./custom.js";
