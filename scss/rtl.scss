@@ -8,7 +8,7 @@ body.rtl-body {
 .rtl-body .navbar-nav .dropdown-menu,
 .rtl-body .navbar-nav .nav-link,
 .rtl-body .section-title {
-    text-align: right;
+    text-align: center;
 }
 
 .rtl-body .breadcrumb,
@@ -21,4 +21,44 @@ body.rtl-body {
 .rtl-body .navbar .navbar-toggler {
     left: 0;
     right: auto;
+}
+.header .caption p {
+ 
+    padding-left: 0px;
+    padding-right: 70px;
+    font-size: 17px;
+}
+
+.header .caption p:after {
+  
+    left: unset;
+    right: 0;
+   
+   
+}
+
+[data-overlay-dark] .button-1 span, .button-1 span {
+   
+    margin-left: 0px;
+    margin-right: 5px;
+    
+}
+.slider-fade .owl-theme .owl-nav, .slider .owl-theme .owl-nav{
+    transform: translateX(12%);
+}
+
+.portfolio .item .con .icon{
+   
+    left: -6px;
+    right: unset;
+    transform: rotate(90deg);
+}
+.portfolio .item .con .icon .arrow {
+   
+    transform: rotate(180deg);
+}
+
+.portfolio .item .con .title {
+    padding: 90px 20px 20px 20px;
+  
 }

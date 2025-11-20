@@ -705,16 +705,16 @@ hr {
 
 /* ======= Section style ======= */
 .section-padding {
-    padding: 120px 0;
+    padding: 70px 0;
 }
 .section-title {
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Pinar", sans-serif;
     color: #101010;
     position: relative;
     margin-bottom: 15px;
     line-height: 1.2em;
-    font-weight: 300;
+    font-weight: 900;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -782,7 +782,7 @@ hr {
 }
 .navbar .navbar-nav .nav-link {
     font-family: "Pinar", sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 17px;
     color: #fff;
     margin: 1px;
@@ -1194,7 +1194,8 @@ hr {
 .header .caption h1 {
     position: relative;
     font-family: "Pinar", sans-serif;
-    font-size: 85px;
+    font-weight: 800;
+    font-size: 62px;
     letter-spacing: 4px;
     color: #fff;
     line-height: 1.2em;
