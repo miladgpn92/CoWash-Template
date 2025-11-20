@@ -5489,3 +5489,15 @@ select {
 .text__justify{
     text-align: justify !important;
 }
+
+.portfolio-details .sidebar-car .item .features p{
+    font-weight: 600;
+}
+
+@media screen and (max-width: 991px) {
+    .banner-header h1 {
+       
+        line-height: 70px;
+    }
+}
+

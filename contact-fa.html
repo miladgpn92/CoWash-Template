@@ -1,284 +1,266 @@
 <!DOCTYPE html>
 <html dir="rtl" lang="fa">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
-  <title>
-    تماس با ما
-  </title>
-  <link href="img/favicon.png" rel="shortcut icon"/>
- 
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+    <title>
+        COWASH | تماس با ما
+    </title>
+    <link href="img/favicon.png" rel="shortcut icon" />
     <link href="dist/css/style.css" rel="stylesheet" />
     <link href="dist/css/rtl.css" rel="stylesheet" />
- </head>
- <body class="rtl-body" dir="rtl">
-  <!-- Preloader -->
-  <div class="preloader-bg">
-  </div>
-  <div id="preloader">
-   <div id="preloader-status">
-    <div class="preloader-position loader">
-     <span>
-     </span>
+    <link href="dist/vendor/leaflet/leaflet.css" rel="stylesheet" />
+</head>
+
+<body class="rtl-body" dir="rtl">
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader">
+                <span></span>
+            </div>
+        </div>
     </div>
-   </div>
-  </div>
-  <!-- Progress scroll totop -->
-  <div class="progress-wrap cursor-pointer">
-   <svg class="progress-circle svg-content" height="100%" viewbox="-1 -1 102 102" width="100%">
-    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98">
-    </path>
-   </svg>
-  </div>
- <!-- Navbar -->
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" height="100%" viewbox="-1 -1 102 102" width="100%">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+        </svg>
+    </div>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <!-- Logo -->
             <div class="logo-wrapper">
                 <a class="logo" href="/">
-                    <img alt="" class="logo-img" src="img/logo.svg" />
+                    <img alt="کوواش" class="logo-img" src="img/logo.svg" />
                 </a>
-                <!-- <!-- <a class="logo" href="index.html"><div class="logo"><img src="img/logo.png" alt=""></div></a> -->
             </div>
             <!-- Button -->
-            <button aria-controls="navbar" aria-expanded="false" aria-label="ناوبری را تغییر دهید"
+            <button aria-controls="navbar" aria-expanded="false" aria-label="باز کردن فهرست"
                 class="navbar-toggler" data-bs-target="#navbar" data-bs-toggle="collapse" type="button">
                 <span class="navbar-toggler-icon">
-                    <i class="fa-solid fa-bars">
-                    </i>
+                    <i class="fa-solid fa-bars"></i>
                 </span>
             </button>
             <!-- Menu -->
             <div class="collapse navbar-collapse justify-content-end" id="navbar">
-                <ul class="navbar-nav ">
-                    <li class="nav-item dropdown">
-                        <a aria-expanded="false" class="nav-link active dropdown-toggle" data-bs-auto-close="outside"
-                            data-bs-toggle="dropdown" href="#" role="button">
-                            صفحه اصلی
-
-                        </a>
-
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index-fa.html">خانه</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">
-                            درباره
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-auto-close="outside"
-                            data-bs-toggle="dropdown" href="#" role="button">
-                            محصولات
-                            <i class="ti-angle-down">
-                            </i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="services.html">
-                                    <span>
-                                        خدمات 01
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="services2.html">
-                                    <span>
-                                        خدمات 02
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="services3.html">
-                                    <span>
-                                        خدمات 03
-                                    </span>
-                                </a>
-                            </li>
-
-                        </ul>
+                        <a class="nav-link" href="about-fa.html">درباره ما</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-auto-close="outside"
                             data-bs-toggle="dropdown" href="#" role="button">
                             خدمات
-
                         </a>
-
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-auto-close="outside"
-                            data-bs-toggle="dropdown" href="#" role="button">
-                            کاتالوگ
-
-                        </a>
-
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-auto-close="outside"
-                            data-bs-toggle="dropdown" href="#" role="button">
-                            مقالات
-
-                        </a>
-
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="services-fa.html">
+                                    <span>خدمات سازمانی</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="service-details-fa.html">
+                                    <span>جزئیات خدمات</span>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">
-                            تماس با ما
-                        </a>
+                        <a class="nav-link" href="portfolio-fa.html">نمونه کارها</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog-fa.html">وبلاگ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq-fa.html">سوالات متداول</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact-fa.html">تماس با ما</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-  <!-- Header Banner -->
-  <section class="banner-header middle-height section-padding bg-img" data-background="img/slider/1.jpg" data-overlay-dark="5">
-   <div class="v-middle">
-    <div class="container">
-     <div class="row">
-      <div class="col-md-12 text-center mt-30">
-       <h6>
-        تماس بگیرید
-       </h6>
-       <h1>
-        تماس با ما
-       </h1>
-      </div>
-     </div>
-    </div>
-   </div>
-  </section>
-  <!-- Contact Box -->
-  <div class="contact-box">
-   <div class="container">
-    <div class="row">
-     <div class="col-lg-4 col-md-6 animate-box" data-animate-effect="fadeInUp">
-      <div class="item">
-       <span class="icon fa-solid fa-envelope">
-       </span>
-       <h5>
-        ایمیل
-       </h5>
-       <p>
-        معماری@archex.com
-       </p>
-       <i class="numb fa-solid fa-envelope">
-       </i>
-      </div>
-     </div>
-     <div class="col-lg-4 col-md-6 animate-box" data-animate-effect="fadeInUp">
-      <div class="item">
-       <span class="icon fa-solid fa-location-dot">
-       </span>
-       <h5>
-        آدرس ما
-       </h5>
-       <p>
-        0665 خیابان برادوی نیویورک، ایالات متحده آمریکا
-       </p>
-       <i class="numb fa-solid fa-location-dot">
-       </i>
-      </div>
-     </div>
-     <div class="col-lg-4 col-md-6 animate-box" data-animate-effect="fadeInUp">
-      <div class="item active">
-       <span class="icon fa-solid fa-phone">
-       </span>
-       <h5>
-        با ما تماس بگیرید
-       </h5>
-       <p>
-        +(1) 123 456 7890
-       </p>
-       <i class="numb fa-solid fa-phone">
-       </i>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
-  <!-- Contact -->
-  <section class="contact section-padding">
-   <div class="container">
-    <div class="row">
-     <!-- Form -->
-     <div class="col-lg-5 col-md-12 mb-30">
-      <div class="form-box">
-       <h5>
-        تماس بگیرید
-       </h5>
-       <form method="post">
-        <div class="row">
-         <div class="col-md-12 form-group">
-          <input name="name" placeholder="نام شما *" required="" type="text"/>
-         </div>
-         <div class="col-md-12 form-group">
-          <input name="email" placeholder="ایمیل شما *" required="" type="email"/>
-         </div>
-         <div class="col-md-12 form-group">
-          <input name="subject" placeholder="موضوع *" required="" type="text"/>
-         </div>
-         <div class="col-md-12 form-group">
-          <textarea cols="30" id="message" name="message" placeholder="پیام *" required="" rows="4"></textarea>
-         </div>
-         <div class="col-md-12">
-          <input name="submit" type="submit" value="ارسال پیام"/>
-         </div>
+    <!-- Header Banner -->
+    <section class="banner-header middle-height section-padding bg-img" data-background="img/slider/1.jpg"
+        data-overlay-dark="5">
+        <div class="v-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center mt-30">
+                        <h6>در ارتباط بمانید</h6>
+                        <h1>تماس با کوواش</h1>
+                    </div>
+                </div>
+            </div>
         </div>
-       </form>
-      </div>
-     </div>
-     <!-- Map -->
-     <div class="col-lg-6 offset-lg-1 col-md-12">
-      <h5>
-       مکان
-      </h5>
-      <div class="google-map map">
-       <iframe allowfullscreen="" height="100%" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1573147.7480448114!2d-74.84628175962355!3d41.04009641088412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25856139b3d33%3A0xb2739f33610a08ee!2s1616%20Broadway%2C%20New%20York%2C%20NY%2010019%2C%20Amerika%20Birle%C5%9Fik%20Devletleri!5e0!3m2!1str!2str!4v1646760525018!5m2!1str!2str" style="border:0;" width="100%">
-       </iframe>
-      </div>
-     </div>
+    </section>
+    <!-- Contact Box -->
+    <div class="contact-box">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 " >
+                    <div class="item">
+                        <span class="icon fa-solid fa-phone-volume"></span>
+                        <h5>شماره ثابت</h5>
+                        <p class="mb-1 text-end">
+                            <span class="dir-ltr d-inline-flex justify-content-end">021-9100-2040</span>
+                        </p>
+                        <small class="text-muted d-block text-end">شنبه تا پنجشنبه ۹ تا ۱۸</small>
+                        <i class="numb fa-solid fa-phone-volume"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  "  >
+                    <div class="item">
+                        <span class="icon fa-solid fa-mobile-screen-button"></span>
+                        <h5>شماره همراه</h5>
+                        <p class="mb-1 text-end">
+                            <span class="dir-ltr d-inline-flex justify-content-end">+98 912 345 6789</span>
+                        </p>
+                        <small class="text-muted d-block text-end">پاسخ‌گو در پیام‌رسان‌ها</small>
+                        <i class="numb fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 "  >
+                    <div class="item">
+                        <span class="icon fa-solid fa-envelope"></span>
+                        <h5>ایمیل پشتیبانی</h5>
+                        <p class="mb-1 text-end">support@cowashco.com</p>
+                        <small class="text-muted d-block text-end">پاسخ در کمتر از ۱ روز کاری</small>
+                        <i class="numb fa-solid fa-envelope"></i>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6  " >
+                    <div class="item">
+                        <span class="icon fa-solid fa-location-dot"></span>
+                        <h5>آدرس دفتر مرکزی</h5>
+                        <p class="text-end">تهران، خیابان ولیعصر، بالاتر از پارک ساعی، پلاک ۱۸، واحد ۵</p>
+                        <i class="numb fa-solid fa-location-dot"></i>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6  "  >
+                    <div class="item active">
+                        <span class="icon fa-brands fa-instagram"></span>
+                        <h5>شبکه‌های اجتماعی</h5>
+                        <div class="d-flex flex-column align-items-end gap-2 social-links">
+                            <a class="d-flex flex-column text-end" href="https://instagram.com/cowash.ir" rel="noopener"
+                                target="_blank">
+                                <span class="text-muted small">اینستاگرام</span>
+                                <span class="fw-semibold dir-ltr">@cowash.ir</span>
+                            </a>
+                            <a class="d-flex flex-column text-end" href="https://wa.me/989363201642" rel="noopener"
+                                target="_blank">
+                                <span class="text-muted small">واتس‌اپ</span>
+                                <span class="fw-semibold dir-ltr">+98 936 320 1642</span>
+                            </a>
+                        </div>
+                        <i class="numb fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-   </div>
-  </section>
+    <!-- Contact -->
+    <section class="contact section-padding">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-lg-5 col-md-12 mb-30">
+                    <div class="form-box contact-info-box">
+                        <h5>بدون فرم، مستقیم با ما در تماس باشید</h5>
+                        <p class="mb-30 text-muted">برای ارتباط سریع کافی است از یکی از روش‌های زیر استفاده کنید؛ زمان پاسخگویی ما کمتر از دو ساعت کاری است.</p>
+                        <ul class="list-unstyled mb-30 contact-list">
+                            <li>
+                                <strong>پشتیبانی تلفنی:</strong>
+                                <span class="dir-ltr d-inline-flex justify-content-end ms-2">021-9100-2040</span>
+                            </li>
+                            <li>
+                                <strong>پشتیبانی همراه و واتس‌اپ:</strong>
+                                <span class="dir-ltr d-inline-flex justify-content-end ms-2">+98 936 320 1642</span>
+                            </li>
+                            <li>
+                                <strong>ایمیل رسمی:</strong>
+                                <span class="ms-2">hello@cowashco.com</span>
+                            </li>
+                        </ul>
+                        <div class="d-flex flex-wrap gap-3">
+                            <a class="button-1" href="tel:+982191002040">
+                                تماس تلفنی
+                                <i class="ti-headphone-alt me-1"></i>
+                            </a>
+                            <a class="button-1" href="mailto:hello@cowashco.com">
+                                ارسال ایمیل
+                                <i class="ti-email me-1"></i>
+                            </a>
+                            <a class="button-1" href="https://wa.me/989363201642" rel="noopener" target="_blank">
+                                گفت‌وگوی واتس‌اپ
+                                <i class="fa-brands fa-whatsapp me-1"></i>
+                            </a>
+                        </div>
+                        <p class="small text-muted mt-3">پیام‌ها بر اساس اولویت زمانی و نوع درخواست پیگیری می‌شوند.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-md-12">
+                    <h5>موقعیت ما روی نقشه</h5>
+                    <p class="text-muted mb-20">مکان دفتر مرکزی کوواش را با نقشه Leaflet مشاهده کنید.</p>
+                    <div class="google-map map" id="contact-map" style="height: 420px;">
+                    </div>
+                    <div class="route-box mt-30">
+                        <h6>مسیریابی سریع</h6>
+                        <p class="text-muted mb-3">برای دریافت مسیر مستقیم می‌توانید از سرویس‌های محبوب زیر استفاده کنید.</p>
+                        <div class="d-flex flex-wrap gap-3">
+                            <a class="button-1" href="https://neshan.org/maps/place/35.732593,51.422382?name=%DA%A9%D9%88%D9%88%D8%A7%D8%B4" rel="noopener" target="_blank">
+                                <i class="ti-location-pin ms-1"></i>
+                                نشان
+                            </a>
+                            <a class="button-1" href="https://www.google.com/maps/dir/?api=1&destination=35.732593%2C51.422382" rel="noopener" target="_blank">
+                                <i class="fa-brands fa-google ms-1"></i>
+                                گوگل مپ
+                            </a>
+                            <a class="button-1" href="https://balad.ir/directions?destination=35.732593,51.422382" rel="noopener" target="_blank">
+                                <i class="fa-solid fa-location-arrow ms-1"></i>
+                                بلد
+                            </a>
+                        </div>
+                        <p class="small text-muted mt-2">تمام لینک‌ها در تب جدید باز می‌شوند و موقعیت دقیق دفتر را نشان می‌دهند.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Lets Talk -->
     <section class="lets-talk">
         <div class="background bg-img bg-fixed section-padding" data-background="img/slider/6.png"
             data-overlay-dark="5">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-subtitle">
-                           COWASH
-                        </div>
-                        <div class="section-title text-end">
-                          با ما تماس بگیرید
-                            <br />
-                       مشاورین ما در خدمت شما هستند
+                    <div class="col-md-12 text-end">
+                        <div class="section-subtitle">COWASH</div>
+                        <div class="section-title">
+                            بیایید صحبت کنیم
+                            <br />برای همکاری کافیست پیام بدهید.
                         </div>
                         <div class="wrap">
-                                <a href="tel:+11234567890" class="dir-ltr">
-                              +(98) 9363201642
-                            </a>
-                        
-                            <div class="dv">
-                            </div>
-                            <a href="mailto:info@cowashco.com">
-                              info@cowashco.com
-                            </a>
-                            <div class="dv">
-                            </div>
+                            <a class="dir-ltr" href="tel:+982191002040">021-9100-2040</a>
+                            <div class="dv"></div>
+                            <a href="mailto:hello@cowashco.com">hello@cowashco.com</a>
+                            <div class="dv"></div>
                             <div class="social">
-                                <a class="icon" href="#">
-                                    <i class="fa-brands fa-instagram">
-                                    </i>
+                                <a class="icon" href="https://instagram.com/cowash.ir" rel="noopener"
+                                    target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
                                 </a>
-                           
-                                <a class="icon" href="#">
-                                    <i class="fa-brands fa-whatsapp">
-                                    </i>
+                                <a class="icon" href="https://wa.me/989363201642" rel="noopener" target="_blank">
+                                    <i class="fa-brands fa-whatsapp"></i>
                                 </a>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -294,51 +276,41 @@
                     <div class="col-md-4 mb-30">
                         <div class="item">
                             <div class="logo">
-                                <img alt="" src="img/logo.png" />
+                                <img alt="کوواش" src="img/logo.png" />
                             </div>
                             <p>
-                              کواش یک برند تخصصی در تولید روشویی‌های پرسلان، کابین‌های PVC و آینه‌های مدرن است که کیفیت و زیبایی را در کنار هم ارائه می‌دهد.
+                                کوواش با ارائه خدمات تخصصی نظافت و نگهداری، تجربه‌ای مطمئن و لوکس برای خانه‌ها و فضاهای
+                                تجاری فراهم می‌کند. ما به کیفیت، وقت‌شناسی و احترام به حریم شما متعهد هستیم.
                             </p>
                             <div class="social-icons">
                                 <ul class="list-inline">
                                     <li>
-                                        <a href="#">
-                                            <i class="fa-brands fa-whatsapp text-black">
-                                            </i>
+                                        <a href="https://wa.me/989363201642" rel="noopener" target="_blank">
+                                            <i class="fa-brands fa-whatsapp text-black"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <i class="fa-brands fa-instagram text-black">
-                                            </i>
+                                        <a href="https://instagram.com/cowash.ir" rel="noopener" target="_blank">
+                                            <i class="fa-brands fa-instagram text-black"></i>
                                         </a>
                                     </li>
-                                   
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 offset-md-1 mb-30">
                         <div class="item">
-                            <h3>
-                            دسترسی سریع
-                            </h3>
+                            <h3>لینک‌های مفید</h3>
                             <div class="links">
                                 <ul>
                                     <li>
-                                        <a href="contact.html">
-                                          محصولات
-                                        </a>
+                                        <a href="services-fa.html">خدمات ما</a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                          درباره ما
-                                        </a>
+                                        <a href="portfolio-fa.html">پروژه‌ها</a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                       تماس با ما
-                                        </a>
+                                        <a href="contact-fa.html">درخواست همکاری</a>
                                     </li>
                                 </ul>
                             </div>
@@ -346,18 +318,15 @@
                     </div>
                     <div class="col-md-4 mb-30">
                         <div class="item">
-                            <h3>
-                           کاتالوگ
-                            </h3>
-                            <p>
-                              برای آشنایی بیشتر با کواش میتوانید آخرین نسخه کاتالوگ ما را از لینک زیر دانلود کنید و محصولات ما را مشاهده کنید
-                            </p>
+                            <h3>خبرنامه</h3>
+                            <p>برای اطلاع از تخفیف‌ها و کمپین‌های جدید ایمیل خود را ثبت کنید.</p>
                             <div class="newsletter">
-                              <a class="button-1 d-flex align-items-center justify-content-center" href="#">
-                                دانلود کاتالوگ
-                                    <span class="ti-arrow-top-right">
-                                    </span>
-                                </a>
+                                <form action="#">
+                                    <input placeholder="ایمیل شما" required="" type="email" />
+                                    <button type="submit">
+                                        <i class="ti-arrow-top-right"></i>
+                                    </button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -366,29 +335,76 @@
             <!-- bottom -->
             <div class="bottom">
                 <div class="row">
-                    <div class="col-md-6">
-                        <p class="mb-0">
-                          تمامی حقوق وب سایت متعلق به مجموعه کواش میباشد
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                        <p class="mb-0 text-start">
-                       طراحی و توسعه    
-                            <a href="#">
-                                جریان
-                            </a>
-                            .
-                        </p>
+                    <div class="col-md-12">
+                        <p class="mb-0">© تمامی حقوق برای کوواش محفوظ است.</p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-   
+    <!-- Popup Contact Form -->
+    <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">ارتباط سریع</h5>
+                    <button aria-label="بستن" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-box">
+                        <form method="post">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input name="name" placeholder="نام و نام خانوادگی *" required="" type="text" />
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input name="email" placeholder="ایمیل *" required="" type="email" />
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input name="phone" placeholder="شماره تماس *" required="" type="text" />
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input name="subject" placeholder="موضوع *" required="" type="text" />
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <textarea cols="30" id="modal-message" name="message" placeholder="متن پیام *"
+                                        required="" rows="4"></textarea>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <button class="modal-button" type="submit">ارسال پیام</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- jQuery -->
-    <script src="dist/js/main.js">
+    <script src="dist/js/main.js"></script>
+    <script src="js/rtl.js"></script>
+    <script src="dist/vendor/leaflet/leaflet.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var lat = 35.732593;
+            var lng = 51.422382;
+            var mapContainer = document.getElementById('contact-map');
+            if (mapContainer && typeof L !== 'undefined') {
+                var contactMap = L.map('contact-map', {
+                    center: [lat, lng],
+                    zoom: 15,
+                    scrollWheelZoom: false
+                });
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    maxZoom: 19,
+                    attribution: '&copy; OpenStreetMap'
+                }).addTo(contactMap);
+                L.marker([lat, lng]).addTo(contactMap)
+                    .bindPopup('کوواش - دفتر مرکزی<br>تهران، خیابان ولیعصر، پلاک ۱۸')
+                    .openPopup();
+            }
+        });
     </script>
-    <script src="js/rtl.js">
-    </script>
- </body>
+</body>
+
 </html>

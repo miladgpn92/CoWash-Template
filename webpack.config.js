@@ -78,6 +78,10 @@ module.exports = {
         },
         { from: "fonts", to: "fonts" },
         { from: "img", to: "img" },
+        {
+          from: path.resolve(__dirname, "node_modules", "leaflet", "dist"),
+          to: "vendor/leaflet",
+        },
       ],
     }),
     new CompressionPlugin({
