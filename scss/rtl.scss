@@ -62,3 +62,48 @@ body.rtl-body {
     padding: 90px 20px 20px 20px;
   
 }
+
+.bottom-fade{
+        border-radius: 20px;
+}
+
+[data-overlay-dark] .button-4 span, .button-4 span {
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+.team__text{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.blog .item .icon{
+       left: -6px;
+    right: unset;
+    transform: rotate(90deg);
+}
+
+.blog .item .icon .arrow {
+   
+    transform: rotate(180deg);
+}
+
+.blog .item .title {
+    
+    padding:25px 25px 25px 100px;;
+    
+}
+
+.blog .item {
+   
+    border-radius: 20px ;
+ 
+}
+
+.blog .item .title h4 {
+  
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 37px;
+}
