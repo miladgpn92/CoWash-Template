@@ -1627,7 +1627,7 @@ position: relative;
 .banner-header h6 {
     font-size: 15px;
     line-height: 15px;
-    color: #6E172D;
+    color: #b41e44;
     margin-bottom: 10px;
     position: relative;
     display: inline-block;
@@ -1642,7 +1642,7 @@ position: relative;
     line-height: 1.25em;
     margin-bottom: 0;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    font-weight: 700;
 }
 .banner-header h1 span {
     color: #6E172D;
@@ -5485,4 +5485,7 @@ select {
 }
 [data-overlay-dark="10"]:before {
     opacity: 1;
+}
+.text__justify{
+    text-align: justify !important;
 }
