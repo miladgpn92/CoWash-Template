@@ -6,10 +6,11 @@ body.rtl-body {
 }
 
 .rtl-body .navbar-nav .dropdown-menu,
-.rtl-body .navbar-nav .nav-link{
+.rtl-body .navbar-nav .nav-link {
     text-align: right;
     width: 100%;
 }
+
 .rtl-body .section-title {
     text-align: center;
 }
@@ -25,106 +26,144 @@ body.rtl-body {
     left: 0;
     right: auto;
 }
+
 .header .caption p {
- 
+
     padding-left: 0px;
     padding-right: 70px;
     font-size: 17px;
 }
 
 .header .caption p:after {
-  
+
     left: unset;
     right: 0;
-   
-   
+
+
 }
 
-[data-overlay-dark] .button-1 span, .button-1 span {
-   
+[data-overlay-dark] .button-1 span,
+.button-1 span {
+
     margin-left: 0px;
     margin-right: 5px;
-    
+
 }
-.slider-fade .owl-theme .owl-nav, .slider .owl-theme .owl-nav{
+
+.slider-fade .owl-theme .owl-nav,
+.slider .owl-theme .owl-nav {
     transform: translateX(12%);
 }
 
-.portfolio .item .con .icon{
-   
+.portfolio .item .con .icon {
+
     left: -6px;
     right: unset;
     transform: rotate(90deg);
 }
+
 .portfolio .item .con .icon .arrow {
-   
+
     transform: rotate(180deg);
 }
 
 .portfolio .item .con .title {
     padding: 90px 20px 20px 20px;
-  
+
 }
 
-.bottom-fade{
-        border-radius: 20px;
+.bottom-fade {
+    border-radius: 20px;
 }
 
-[data-overlay-dark] .button-4 span, .button-4 span {
+[data-overlay-dark] .button-4 span,
+.button-4 span {
     margin-left: 0px;
     margin-right: 5px;
 }
 
-.team__text{
+.team__text {
     font-size: 14px;
     font-weight: normal;
     text-align: justify;
 }
 
-.blog .item .icon{
-       left: -6px;
+.blog .item .icon {
+    left: -6px;
     right: unset;
     transform: rotate(90deg);
 }
 
 .blog .item .icon .arrow {
-   
+
     transform: rotate(180deg);
 }
 
 .blog .item .title {
-    
-    padding:25px 25px 25px 100px;;
-    
+
+    padding: 25px 25px 25px 100px;
+    ;
+
 }
 
 .blog .item {
-   
-    border-radius: 20px ;
- 
+
+    border-radius: 20px;
+
 }
 
 .blog .item .title h4 {
-  
+
     font-size: 18px;
     font-weight: 700;
     line-height: 37px;
 }
-.lets-talk .section-title{
+
+.lets-talk .section-title {
     font-size: 33px;
     line-height: 60px;
 }
-.dir-ltr{
+
+.dir-ltr {
     direction: ltr;
 }
 
-.services .item .icon{
-         left: -6px;
+.services .item .icon {
+    left: -6px;
     right: unset;
     transform: rotate(90deg);
 }
 
 .services .item .icon .arrow {
-   
+
     transform: rotate(180deg);
+}
+
+.contact-box .item {
+    text-align: right;
+
+    .phone__number {
+        font-weight: 600;
+        font-size: 32px;
+    }
+
+    .social-icons {
+         width: 100%;
+        ul {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            li {
+              margin-left: 16px;
+
+                a {
+                    background: #fff;
+                    font-size: 50px;
+                    padding: 10px 20px;
+                    border-radius: 14px;
+                }
+            }
+        }
+    }
 }
